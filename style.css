@@ -22,11 +22,22 @@ html, body {
   padding-top: 3px;
 }
 
-.card-name {
+.card-picture {
   width: 280px;
   height: 80px;
+
   background: linear-gradient(to right, hsl(264, 100%, 61%) ,hsl(293, 100%, 63%));
+
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px 20px 7px 7px;
+   
+  display: flex;
+  align-items: center;
+
+  margin-top: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  
 }
