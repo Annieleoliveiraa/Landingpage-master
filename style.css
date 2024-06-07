@@ -5,6 +5,18 @@ html, body {
    background-color: hsl(0, 9%, 79%);
 }
 
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  padding-top: 35px;
+}
+
+.text-name {
+  color: hsl(268, 21%, 86%);
+}
+
 .container-color {
    background:linear-gradient(to right, hsl(276, 55%, 52%),  hsl(293, 100%, 63%));
    width: 400px;
@@ -14,30 +26,53 @@ html, body {
 }
 
 .card-phone {
-  width: 300px;
+  width: 280px;
   height: 460px;
   background-color:  hsl(0, 0%, 100%);
   margin: -480px 0 0 300px;
 
-  border-radius: 30px;
+  border-radius: 34px;
 
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 .card-picture {
-  width: 280px;
-  height: 80px;
+  width: 258px;
+  height: 100px;
 
   background: linear-gradient(to right, hsl(264, 100%, 61%) ,hsl(293, 100%, 63%));
+  border-radius: 25px 25px 0 0;
 
-  margin-left: auto;
-  margin-right: auto;
-   
-  display: flex;
-  align-items: center;
+  position: relative;
+  overflow: hidden;
 
+  margin: auto;
   margin-top: 8px;
 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px 20px 7px 7px;
+  border-radius: 30px 30px 7px 7px;
+
+  display: flex;
+  align-items: center;
+}
+
+.card-picture::before {
+  content: '';
+  width: 130px;
+  height: 34px;
+  background: white;
+  border-radius: 0 0 40px 40px; 
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-avatar {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+
+  margin: 8px 2px 3px 14px;
 }
