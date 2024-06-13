@@ -8,13 +8,17 @@ html, body {
 h3 {
   color: hsl(0, 0%, 100%);
   font-weight: 500;
-  font-size: 16px;
-  margin-left: 10px;
-  padding-top: 35px;
+  font-size: 15px;
+  margin-left: 12px;
+  padding-top: 20px;
 }
 
 .text-name {
   color: hsl(268, 21%, 86%);
+  margin-top: -10px;
+  margin-left: 12px;
+
+  font-size: 13px;
 }
 
 .container-color {
@@ -67,6 +71,12 @@ h3 {
   transform: translateX(-50%);
 }
 
+.card-teste {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .img-avatar {
   width: 30px;
   height: 30px;
@@ -74,5 +84,18 @@ h3 {
   border-radius: 50%;
   border: 2px solid white;
 
-  margin: 8px 2px 3px 14px;
+  margin: 20px 2px 4px 5px;
+}
+
+.fa-chevron-left {
+  color: white;
+  margin: 20px 10px 0 15px;
+  font-size: 16px;
+}
+
+.fa-ellipsis {
+  color: red;
+  transform: rotate(90deg);
+
+  margin-left: 80px;
 }
