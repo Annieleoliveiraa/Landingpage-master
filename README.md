@@ -1,3 +1,3 @@
- # README DA LANDING PAGE MASTER #
+# README DA LANDING PAGE MASTER #
 
  Apresentação do projeto Readme!
