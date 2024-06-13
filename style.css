@@ -1,8 +1,8 @@
 html, body {
-   margin: 0;
-   padding: 0;
-   font-family: "Rubik", sans-serif;
-   background-color: hsl(0, 9%, 79%);
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(0, 9%, 79%);
 }
 
 h3 {
@@ -17,7 +17,6 @@ h3 {
   color: hsl(268, 21%, 86%);
   margin-top: -10px;
   margin-left: 12px;
-
   font-size: 13px;
 }
 
@@ -34,29 +33,21 @@ h3 {
   height: 460px;
   background-color:  hsl(0, 0%, 100%);
   margin: -480px 0 0 300px;
-
   border-radius: 34px;
-
   padding-top: 4px;
 }
 
 .card-picture {
   width: 258px;
   height: 100px;
-
   background: linear-gradient(to right, hsl(264, 100%, 61%) ,hsl(293, 100%, 63%));
   border-radius: 25px 25px 0 0;
-
   position: relative;
   overflow: hidden;
-
   margin: auto;
   margin-top: 8px;
-
   border-radius: 30px 30px 7px 7px;
-
   display: flex;
-  align-items: center;
 }
 
 .card-picture::before {
@@ -74,28 +65,26 @@ h3 {
 .card-teste {
   display: flex;
   flex-direction: column;
-
 }
 
 .img-avatar {
   width: 30px;
   height: 30px;
-
   border-radius: 50%;
   border: 2px solid white;
-
-  margin: 20px 2px 4px 5px;
+  margin: 35px 2px 4px 5px;
 }
 
 .fa-chevron-left {
   color: white;
-  margin: 20px 10px 0 15px;
+  margin: 45px 10px 0 15px;
   font-size: 16px;
 }
 
 .fa-ellipsis {
-  color: red;
+  color: hsl(0, 0%, 100%);
   transform: rotate(90deg);
-
-  margin-left: 80px;
+  margin-left: 152px;
+  margin-top: -40px;
+  border-radius: 50%;
 }
