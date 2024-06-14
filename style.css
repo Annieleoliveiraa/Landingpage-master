@@ -30,9 +30,9 @@ h3 {
 
 .card-phone {
   width: 280px;
-  height: 460px;
+  height: 615px;
   background-color:  hsl(0, 0%, 100%);
-  margin: -480px 0 0 300px;
+  margin: -520px 0 0 300px;
   border-radius: 34px;
   padding-top: 4px;
 }
@@ -62,6 +62,18 @@ h3 {
   transform: translateX(-50%);
 }
 
+.card-background {
+  background-color: hsl(270, 20%, 96%);
+  width: 255px;
+  height: 495px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  border-radius: 4px 4px 34px 34px;
+
+}
+
 .card-teste {
   display: flex;
   flex-direction: column;
@@ -87,4 +99,88 @@ h3 {
   margin-left: 152px;
   margin-top: -40px;
   border-radius: 50%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxtext-1 {
+  background-color:  hsl(204, 9%, 90%);
+  width: 194px;
+  height: 65px;
+
+  margin: 8px 0 0 12px;
+  padding-left: 9px;
+
+  border-radius: 20px 20px 20px 4px;
+}
+
+.boxtext-2 {
+  background-color:  hsl(204, 9%, 90%);
+  width: 224px;
+  height: 64px;
+
+  margin: 8px 0 0 12px;
+  padding-left: 9px;
+
+  border-radius: 20px 20px 20px 4px;
+}
+
+.color-name {
+  color: hsl(276, 55%, 52%);
+  font-size: 14px;
+}
+
+.color-name1 {
+  font-size: 14px;
+  color: black;
+}
+
+.box-dogs {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+
+  padding: 18px 18px 8px 8px;
+}
+
+.img-dog {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.boxtext-3 {
+  background-color: hsl(0, 0%, 100%);
+  width: 224px;
+  height: 64px;
+
+  margin: 8px 0 0 14px;
+  padding-left: 8px;
+
+  border-radius: 20px 20px 4px 20px;
+}
+
+.boxtext-4 {
+  background-color:  hsl(0, 0%, 100%);
+  width: 140px;
+  height: 42px;
+
+  margin: 8px 0 0 95px;
+  padding-left: 8px;
+
+  border-radius: 20px 20px 4px 20px;
+}
+
+.boxtext-5 {
+  background-color: hsl(204, 9%, 90%);
+  width: 200px;
+  height: 68px;
+
+  margin: 8px 0 0 12px;
+  padding: 4px;
+
+  border-radius: 20px 20px 20px 4px;
 }
