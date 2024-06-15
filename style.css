@@ -2,7 +2,12 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
-  background-color: hsl(0, 9%, 79%);
+  background-color: hsl(0, 2%, 90%);
+}
+
+h1 {
+  color: hsl(271, 36%, 24%);
+  font-weight: 500;
 }
 
 h3 {
@@ -13,6 +18,16 @@ h3 {
   padding-top: 20px;
 }
 
+span {
+  padding-left: 20px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+
+  font-weight: bolder;
+}
+
+
+
 .text-name {
   color: hsl(268, 21%, 86%);
   margin-top: -10px;
@@ -22,19 +37,21 @@ h3 {
 
 .container-color {
    background:linear-gradient(to right, hsl(276, 55%, 52%),  hsl(293, 100%, 63%));
-   width: 400px;
-   height: 560px;
+   width: 460px;
+   height: 780px;
    border-bottom-left-radius: 65%;
    border-bottom-right-radius: 65%;
 }
 
 .card-phone {
   width: 280px;
-  height: 615px;
+  height: 740px;
   background-color:  hsl(0, 0%, 100%);
-  margin: -520px 0 0 300px;
+  margin: -740px 0 0 300px;
   border-radius: 34px;
   padding-top: 4px;
+
+  margin-bottom: 20px;
 }
 
 .card-picture {
@@ -65,13 +82,12 @@ h3 {
 .card-background {
   background-color: hsl(270, 20%, 96%);
   width: 255px;
-  height: 495px;
+  height: 620px;
 
   margin-right: auto;
   margin-left: auto;
 
   border-radius: 4px 4px 34px 34px;
-
 }
 
 .card-teste {
@@ -131,6 +147,8 @@ h3 {
 .color-name {
   color: hsl(276, 55%, 52%);
   font-size: 14px;
+
+  padding-left: 8px;
 }
 
 .color-name1 {
@@ -183,4 +201,77 @@ h3 {
   padding: 4px;
 
   border-radius: 20px 20px 20px 4px;
+}
+
+.card-number1 {
+  width: 222px;
+  height: 45px;
+
+  background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-radius: 15px 15px 15px 6px;
+
+
+  margin: 8px 0 0 14px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-number1 {
+  font-size: 14px;
+  padding-left: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-number2 {
+  width: 222px;
+  height: 45px;
+
+  background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-radius: 15px 15px 15px 6px;
+
+
+  margin: 8px 0 0 14px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-number2 {
+  font-size: 14px;
+  padding-left: 40px;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-text {
+  width: 450px;
+  display: flex;
+
+  padding-left: 400px;
+  margin-top: -450px;
+}
+
+.box-thetext {
+  color: hsl(270, 7%, 64%);
+  line-height: 30px;
+}
+
+.card-forms {
+  width: 230px;
+  height: 45px;
+
+  background-color: hsl(0, 0%, 100%);
+
+  border-radius: 25px;
+
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.text-forms {
+  padding-left: 8px;
+  color: hsl(270, 7%, 64%);
+
+  font-size: 14px;
+  margin-left: 14px;
 }
