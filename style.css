@@ -13,26 +13,34 @@ h1 {
 h3 {
   color: hsl(0, 0%, 100%);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 12px;
-  padding-top: 20px;
+  padding-top: 14px;
 }
 
 span {
-  padding-left: 20px;
   font-size: 18px;
   color: hsl(0, 0%, 100%);
 
   font-weight: bolder;
+
+  margin-left: 14px;
 }
 
+.box-num {
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
 
+  font-weight: bolder;
+
+  margin-left: 25px;
+}
 
 .text-name {
   color: hsl(268, 21%, 86%);
   margin-top: -10px;
   margin-left: 12px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .container-color {
@@ -44,10 +52,10 @@ span {
 }
 
 .card-phone {
-  width: 280px;
+  width: 340px;
   height: 740px;
   background-color:  hsl(0, 0%, 100%);
-  margin: -740px 0 0 300px;
+  margin: -750px 0 0 300px;
   border-radius: 34px;
   padding-top: 4px;
 
@@ -55,8 +63,8 @@ span {
 }
 
 .card-picture {
-  width: 258px;
-  height: 100px;
+  width: 320px;
+  height: 85px;
   background: linear-gradient(to right, hsl(264, 100%, 61%) ,hsl(293, 100%, 63%));
   border-radius: 25px 25px 0 0;
   position: relative;
@@ -81,8 +89,8 @@ span {
 
 .card-background {
   background-color: hsl(270, 20%, 96%);
-  width: 255px;
-  height: 620px;
+  width: 320px;
+  height: 630px;
 
   margin-right: auto;
   margin-left: auto;
@@ -105,15 +113,15 @@ span {
 
 .fa-chevron-left {
   color: white;
-  margin: 45px 10px 0 15px;
-  font-size: 16px;
+  margin: 38px 10px 0 15px;
+  font-size: 20px;
 }
 
 .fa-ellipsis {
   color: hsl(0, 0%, 100%);
   transform: rotate(90deg);
-  margin-left: 152px;
-  margin-top: -40px;
+  margin-left: 156px;
+  margin-top: -55px;
   border-radius: 50%;
 }
 
@@ -124,8 +132,7 @@ span {
 
 .boxtext-1 {
   background-color:  hsl(204, 9%, 90%);
-  width: 194px;
-  height: 65px;
+  width: 220px;
 
   margin: 8px 0 0 12px;
   padding-left: 9px;
@@ -135,8 +142,7 @@ span {
 
 .boxtext-2 {
   background-color:  hsl(204, 9%, 90%);
-  width: 224px;
-  height: 64px;
+  width: 220px;
 
   margin: 8px 0 0 12px;
   padding-left: 9px;
@@ -165,17 +171,16 @@ span {
 }
 
 .img-dog {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 16px;
 }
 
 .boxtext-3 {
   background-color: hsl(0, 0%, 100%);
   width: 224px;
-  height: 64px;
 
-  margin: 8px 0 0 14px;
+  margin: 8px 0 0 70px;
   padding-left: 8px;
 
   border-radius: 20px 20px 4px 20px;
@@ -184,9 +189,8 @@ span {
 .boxtext-4 {
   background-color:  hsl(0, 0%, 100%);
   width: 140px;
-  height: 42px;
 
-  margin: 8px 0 0 95px;
+  margin: 8px 0 0 155px;
   padding-left: 8px;
 
   border-radius: 20px 20px 4px 20px;
@@ -194,37 +198,54 @@ span {
 
 .boxtext-5 {
   background-color: hsl(204, 9%, 90%);
-  width: 200px;
-  height: 68px;
+  width: 220px;
+  
 
-  margin: 8px 0 0 12px;
-  padding: 4px;
+  margin: 8px 5px 8px 10px;
+  padding: 2px;
+ 
 
   border-radius: 20px 20px 20px 4px;
 }
 
 .card-number1 {
-  width: 222px;
+  width: 255px;
   height: 45px;
 
   background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   border-radius: 15px 15px 15px 6px;
 
 
-  margin: 8px 0 0 14px;
+  margin: 3px 0 0 14px;
 
   display: flex;
+  align-items: center;
   justify-content: space-around;
+}
+
+.box-circle1 {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  border: 1px solid rgb(202, 200, 200);
+
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .text-number1 {
-  font-size: 14px;
-  padding-left: 10px;
+  font-size: 16px;
   color: hsl(0, 0%, 100%);
+
+  margin-top: 12px;
+  margin-right: 10px;
 }
 
 .card-number2 {
-  width: 222px;
+  width: 255px;
   height: 45px;
 
   background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
@@ -234,13 +255,27 @@ span {
   margin: 8px 0 0 14px;
 
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
+.box-circle2 {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  border: 1px solid rgb(202, 200, 200);
+
+  display: flex;
+  align-items: center;
+}
+
 .text-number2 {
-  font-size: 14px;
-  padding-left: 40px;
+  font-size: 16px;
   color: hsl(0, 0%, 100%);
+
+  margin-top: 12px;
 }
 
 .card-text {
@@ -257,15 +292,15 @@ span {
 }
 
 .card-forms {
-  width: 230px;
+  width: 290px;
   height: 45px;
 
   background-color: hsl(0, 0%, 100%);
 
   border-radius: 25px;
 
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 15px;
+  margin-left: 13px;
 
   display: flex;
   align-items: center;
@@ -290,6 +325,8 @@ span {
 
   display: flex;
   align-items: center;
+
+  margin-left: 85px;
 }
 
 .fa-solid, fa-chevron-right {
@@ -298,3 +335,7 @@ span {
 
   padding: 7px 6px 8px 10px;
 }
+
+
+
+
