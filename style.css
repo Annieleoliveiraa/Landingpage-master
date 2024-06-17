@@ -266,6 +266,10 @@ span {
 
   margin-top: 20px;
   margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .text-forms {
@@ -274,4 +278,23 @@ span {
 
   font-size: 14px;
   margin-left: 14px;
+}
+
+.card-circle {
+  width: 30px;
+  height: 30px;
+
+  background-color: hsl(271, 36%, 24%);
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+}
+
+.fa-solid, fa-chevron-right {
+  font-size: 16px;
+  color: white;
+
+  padding: 7px 6px 8px 10px;
 }
