@@ -282,7 +282,7 @@ span {
   width: 450px;
   display: flex;
 
-  padding-left: 400px;
+  padding-left: 740px;
   margin-top: -450px;
 }
 
@@ -339,3 +339,44 @@ span {
 
 
 
+@media screen and (max-width: 600px) {
+  .container-color {
+    width: 70%;
+    height: 400px;
+  }
+  .card-phone {
+    margin: -380px 5px 20px 90px;
+
+    width: 300px;
+  }
+
+  .card-picture {
+    width: 280px;
+  }
+
+  .card-background {
+    width: 280px;
+  }
+
+  .card-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 42px;
+  } 
+
+  .text-forms {
+   width: 100px;
+  }
+
+  .card-circle {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .fa-chevron-right {
+    font-size: 15px;
+  }
+}
