@@ -348,7 +348,7 @@ span {
     margin: -380px 5px 5px 50px;
 
     width: 280px;
-    height: 715px;
+    height: 725px;
   }
 
   .card-picture {
@@ -357,7 +357,7 @@ span {
 
   .card-background {
     width: 260px;
-    height: 610px;
+    height: 620px;
   }
 
   .card-forms {
@@ -368,17 +368,13 @@ span {
     width: 232px;
     height: 45px;
 
-    margin-top: 25px;
-  } 
-
-  .text-forms {
-  
+    margin-top: 18px;
   }
 
   .card-circle {
     margin-right: 10px;
     border-radius: 50%;
-    width: 37px;
+    width: 40px;
     height: 30px;
   }
 
