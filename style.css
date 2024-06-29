@@ -345,17 +345,17 @@ span {
     height: 400px;
   }
   .card-phone {
-    margin: -380px 5px 20px 90px;
+    margin: -380px 5px 5% 90px;
 
-    width: 300px;
+    width: 280px;
   }
 
   .card-picture {
-    width: 280px;
+    width: 260px;
   }
 
   .card-background {
-    width: 280px;
+    width: 260px;
   }
 
   .card-forms {
@@ -364,7 +364,9 @@ span {
     align-items: center;
 
     width: 250px;
-    height: 42px;
+    height: 45px;
+
+    margin-top: 20px;
   } 
 
   .text-forms {
@@ -378,5 +380,43 @@ span {
 
   .fa-chevron-right {
     font-size: 15px;
+  }
+
+  .boxtext-3 {
+    margin-left: 28px;
+  }
+
+  .boxtext-4 {
+    margin-left: 115px;
+  }
+
+  .card-number1 {
+    width: 225px;
+  }
+
+  .card-number2 {
+    width: 225px;
+  }
+
+  .text-number2 {
+    margin-left: -28px;
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 300px;
+    padding: 500px 0px 0px 0px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .box-thetext {
+    text-align: center;
+    margin: 12px 12px 8px 12px;
   }
 }
