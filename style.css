@@ -345,7 +345,7 @@ span {
     height: 400px;
   }
   .card-phone {
-    margin: -380px 5px 5% 90px;
+    margin: -380px 5px 5px 50px;
 
     width: 280px;
   }
@@ -407,7 +407,7 @@ span {
     flex-direction: column;
     align-items: center;
 
-    max-width: 300px;
+    width: 300px;
     padding: 500px 0px 0px 0px;
   }
 
@@ -417,6 +417,6 @@ span {
 
   .box-thetext {
     text-align: center;
-    margin: 12px 12px 8px 12px;
+    margin: 10px 5px 10px 5px;
   }
 }
